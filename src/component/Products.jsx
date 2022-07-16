@@ -33,7 +33,18 @@ const Products = () => {
     const Loading = () => {
         return (
             <>
-                 <Skeleton height={400}/>   
+                <div className="col-md-3">
+                 <Skeleton height={350}/>
+                </div>
+                <div className="col-md-3">
+                 <Skeleton height={350}/>
+                </div>    
+                <div className="col-md-3">
+                 <Skeleton height={350}/>
+                </div>
+                <div className="col-md-3">
+                 <Skeleton height={350}/>
+                </div>   
             </>
         );
     };
